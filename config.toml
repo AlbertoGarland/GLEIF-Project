@@ -1,0 +1,62 @@
+[streamlit]
+page_title = 'M1 MBFA Python Project'
+sub_title = "GLEIF Trade Data Analysis"
+layout = 'centered'
+select_exposition_type_label = 'Select Exposition Type'
+show_top_bottom_label = 'Show Top/Bottom'
+select_num_countries_label = 'Select number of top/bottom countries'
+add_more_countries_label = 'Add more countries to the selection'
+scatter_plot_title = 'Scatter Plot of Exposition Ratios'
+final_filtered_data_subheader = 'Filtered Data'
+highest_exposition_label = 'Top 5 Countries with Highest Exposition Ratio for'
+lowest_exposition_label = 'Top 5 Countries with Lowest Exposition Ratio for'
+company_analysis_title = 'Company-Level Exposition Analysis'
+histogram_plot_title = 'Histogram: One Country and One Index'
+scatter_plot_multiple_title = 'Scatter Plot: Multiple Countries and One Index'
+scatter_plot_two_indices_title = 'Scatter Plot: One or Multiple Countries and Two Indices'
+cash_flow_analysis_title = 'Cash Flow Analysis'
+cash_flow_histogram_title = 'Histogram: Cash Flow by Country'
+data_loaded_label = 'Data Loaded'
+select_country_label = 'Select a Country:'
+select_index_label = 'Select an Index:'
+select_countries_label = 'Select Countries:'
+select_index_multiple_label = 'Select an Index for Multiple Countries:'
+select_countries_two_label = 'Select Countries for Two Indices:'
+select_first_index_label = 'Select First Index:'
+select_second_index_label = 'Select Second Index:'
+
+[rates]
+names = ['LIBOR', 'EONIA']
+
+[files]
+names = ['TR1.xlsx', 'TR2.xlsx', 'GLEIF.xlsx']
+
+[columns]
+gross_exposure = 'Gross_Exposure'
+net_exposure = 'Net_Exposure'
+ratio = 'Ratio'
+cash_flow = 'Cash_Flow'
+
+[plot_titles]
+scatter = 'Scatter Plot of Exposition Ratios'
+scatter_multiple = 'Scatter Plot of Exposition Ratios for Multiple Countries'
+histogram = 'Histogram of Exposition Ratios'
+cash_flow_histogram = 'Cash Flow by Country'
+
+[axis_labels]
+gross_exposure = 'Gross Exposure'
+net_exposure = 'Net Exposure'
+ratio = 'Exposition Ratio'
+cash_flow = 'Cash Flow'
+legend_countries = 'Countries'
+legend_companies = 'Companies'
+legend_index = 'Index'
+
+[hover_templates]
+scatter = "<b>%{hovertext}</b><br>Gross Exposure: %{x}<br>Net Exposure: %{y}<br>Exposition Ratio: %{customdata[0]}<br><extra></extra>"
+histogram = "Exposition Ratio: %{y}<br><extra></extra>"
+histogram_cash_flow = "<b>%{x}</b><br>Cash Flow: %{y}<br><extra></extra>"
+
+[colors]
+index1 = 'blue'
+index2 = 'pink'
