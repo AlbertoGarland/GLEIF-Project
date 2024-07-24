@@ -4,4 +4,4 @@ Le projet en soi sait comment chercher dans tout le pc, le fichier config et les
 
 Voilà, j'espère que vous verrez un peu mieux ce que je suis capable de faire!
 
-P.S: Pour que streamlit s'affiche, il faut exectuer streamlit
+P.S: Pour que streamlit s'affiche, il faut exectuer run_streamlit.py afin d'avoir l'ensemble du projet
